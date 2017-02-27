@@ -1,0 +1,36 @@
+footer{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	background-color: indigo;
+	color: white;
+}
+
+.article{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+td,th{
+	padding: 10px!important;
+	text-align: center!important;
+}
+
+table{
+	width: 100%;
+}
+
+
+label{
+	width: 100%
+}
+
+.form-item{
+	width: 
+}
+
+.btn{
+	margin: 20px auto!important;
+	width: 150px;
+    display: block!important;
+}
