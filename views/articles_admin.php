@@ -10,7 +10,9 @@
 <body>
 	<div class="container">
 		<h1>Админ панель</h1>
+		<h4><a href="http://blog/">Вернуться на блог</a></h4>
 		<div>
+
 		<a href="index.php?action=add">Добавить статью</a>
 			<table border="1">
 				<tr>

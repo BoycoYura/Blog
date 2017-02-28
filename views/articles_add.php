@@ -9,6 +9,7 @@
 </head>
 <body>
 	<div class="container">
+	<a href="http://blog/">Вернуться на блог</a>
 		<h1>Добавление новой статьи</h1>
 		<div>
 

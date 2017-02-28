@@ -65,7 +65,7 @@
 
 		$result = mysqli_query($link,$query);
 
-		if ($result) {
+		if (!$result) {
 			die(mysqli_error($link));
 		}
 
@@ -88,5 +88,9 @@
 
 		return mysqli_affected_rows($link);
 
+	}
+
+	function articles_intro($text,$len = 500){
+		return mb_substr($text,0,$len);
 	}
 ?>

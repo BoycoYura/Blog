@@ -26,11 +26,17 @@
 
 		if(!empty($_POST)&& $id>0){
 			article_edit($link,$id,$_POST['title'],$_POST['date'],$_POST['content']);
-			echo 'No-more';
+			header('Location:index.php');
 		}
 
 		$article = article_get($link,$id);
 		include ('../views/articles_edit.php');
+	}
+
+	else if($action == 'delete'){
+		$id = (int)$_GET['id'];
+		$article = article_delete($link,$id);
+		header('Location:index.php');
 	}
 
 	else{
